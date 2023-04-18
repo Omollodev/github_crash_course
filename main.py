@@ -11,8 +11,19 @@ class Employee:
 
     def email(self):
         print(f"{self.fname}{self.lname} @gmail.com")
-
-
+        
+class CyberSecurity(Employee):
+    
+    def __init__(slef,team,skills):
+        self.team = team
+        self.skills = skills
+       self.property = "{}{}".format{team,skills)
+                                     
+        
+        
 emp_1 = Employee('correy', 'scharfer', 50000)
 emp_1.full_name()
 emp_1.email()
+
+cyber = CyberSecurity("Purple","OSINT")
+cyber.property                                     
