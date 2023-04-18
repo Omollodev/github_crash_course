@@ -7,5 +7,5 @@ def leaning(course, by_who):
 
 
 print(datetime)
-l1 = leaning("course", "by_who")
+leaning("course", "by_who")
 print("Hello world!")
